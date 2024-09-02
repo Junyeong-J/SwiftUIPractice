@@ -9,13 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView{
+            VStack {
+                CustomImageView(imageName: ImageName.AppTitleImage.rawValue,
+                                width: 200,
+                                height: 200)
+                
+                CustomImageView(imageName: ImageName.AppMainPoster.rawValue,
+                                width: nil,
+                                height: nil)
+                Spacer()
+                NavigationLinkCustomButton(title: "시작하기", destination: ProfileSettingView())
+            }
+            .padding()
         }
-        .padding()
     }
 }
 

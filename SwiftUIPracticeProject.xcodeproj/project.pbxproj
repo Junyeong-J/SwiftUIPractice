@@ -11,6 +11,15 @@
 		72940C072C85E03100311CE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C062C85E03100311CE8 /* ContentView.swift */; };
 		72940C092C85E03300311CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72940C082C85E03300311CE8 /* Assets.xcassets */; };
 		72940C0C2C85E03300311CE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72940C0B2C85E03300311CE8 /* Preview Assets.xcassets */; };
+		72940C132C85E41B00311CE8 /* ProfileSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C122C85E41B00311CE8 /* ProfileSettingView.swift */; };
+		72940C162C85E7A000311CE8 /* ForegroundWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C152C85E79F00311CE8 /* ForegroundWrapper.swift */; };
+		72940C192C85E8C000311CE8 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C182C85E8C000311CE8 /* CustomImageView.swift */; };
+		72940C1C2C85E9BC00311CE8 /* ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C1B2C85E9BC00311CE8 /* ImageName.swift */; };
+		72940C212C85EB9900311CE8 /* RadiusBlueBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C202C85EB9900311CE8 /* RadiusBlueBackground.swift */; };
+		72940C232C85EC0200311CE8 /* NavigationLinkCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C222C85EC0200311CE8 /* NavigationLinkCustomButton.swift */; };
+		72940C252C85EFFA00311CE8 /* UnderlineTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C242C85EFFA00311CE8 /* UnderlineTextFieldView.swift */; };
+		72940C292C85F6B600311CE8 /* ProfileImageSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C282C85F6B600311CE8 /* ProfileImageSettingView.swift */; };
+		72940C2B2C85FDB600311CE8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C2A2C85FDB500311CE8 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		72940C062C85E03100311CE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		72940C082C85E03300311CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72940C0B2C85E03300311CE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72940C122C85E41B00311CE8 /* ProfileSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingView.swift; sourceTree = "<group>"; };
+		72940C152C85E79F00311CE8 /* ForegroundWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundWrapper.swift; sourceTree = "<group>"; };
+		72940C182C85E8C000311CE8 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		72940C1B2C85E9BC00311CE8 /* ImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageName.swift; sourceTree = "<group>"; };
+		72940C202C85EB9900311CE8 /* RadiusBlueBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusBlueBackground.swift; sourceTree = "<group>"; };
+		72940C222C85EC0200311CE8 /* NavigationLinkCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkCustomButton.swift; sourceTree = "<group>"; };
+		72940C242C85EFFA00311CE8 /* UnderlineTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineTextFieldView.swift; sourceTree = "<group>"; };
+		72940C282C85F6B600311CE8 /* ProfileImageSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageSettingView.swift; sourceTree = "<group>"; };
+		72940C2A2C85FDB500311CE8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +69,17 @@
 		72940C032C85E03100311CE8 /* SwiftUIPracticeProject */ = {
 			isa = PBXGroup;
 			children = (
+				72940C1F2C85EB8100311CE8 /* CustomModifier */,
+				72940C1A2C85E9AF00311CE8 /* enum */,
+				72940C172C85E8AF00311CE8 /* CustomView */,
+				72940C142C85E78B00311CE8 /* Wrapper */,
 				72940C042C85E03100311CE8 /* SwiftUIPracticeProjectApp.swift */,
 				72940C062C85E03100311CE8 /* ContentView.swift */,
+				72940C122C85E41B00311CE8 /* ProfileSettingView.swift */,
+				72940C282C85F6B600311CE8 /* ProfileImageSettingView.swift */,
 				72940C082C85E03300311CE8 /* Assets.xcassets */,
 				72940C0A2C85E03300311CE8 /* Preview Content */,
+				72940C2A2C85FDB500311CE8 /* MainView.swift */,
 			);
 			path = SwiftUIPracticeProject;
 			sourceTree = "<group>";
@@ -65,6 +90,56 @@
 				72940C0B2C85E03300311CE8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		72940C142C85E78B00311CE8 /* Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				72940C152C85E79F00311CE8 /* ForegroundWrapper.swift */,
+			);
+			path = Wrapper;
+			sourceTree = "<group>";
+		};
+		72940C172C85E8AF00311CE8 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				72940C1E2C85EA7A00311CE8 /* Button */,
+				72940C1D2C85EA7100311CE8 /* Image */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		72940C1A2C85E9AF00311CE8 /* enum */ = {
+			isa = PBXGroup;
+			children = (
+				72940C1B2C85E9BC00311CE8 /* ImageName.swift */,
+			);
+			path = enum;
+			sourceTree = "<group>";
+		};
+		72940C1D2C85EA7100311CE8 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				72940C182C85E8C000311CE8 /* CustomImageView.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		72940C1E2C85EA7A00311CE8 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				72940C222C85EC0200311CE8 /* NavigationLinkCustomButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		72940C1F2C85EB8100311CE8 /* CustomModifier */ = {
+			isa = PBXGroup;
+			children = (
+				72940C202C85EB9900311CE8 /* RadiusBlueBackground.swift */,
+				72940C242C85EFFA00311CE8 /* UnderlineTextFieldView.swift */,
+			);
+			path = CustomModifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +212,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72940C232C85EC0200311CE8 /* NavigationLinkCustomButton.swift in Sources */,
+				72940C1C2C85E9BC00311CE8 /* ImageName.swift in Sources */,
+				72940C132C85E41B00311CE8 /* ProfileSettingView.swift in Sources */,
 				72940C072C85E03100311CE8 /* ContentView.swift in Sources */,
+				72940C162C85E7A000311CE8 /* ForegroundWrapper.swift in Sources */,
+				72940C292C85F6B600311CE8 /* ProfileImageSettingView.swift in Sources */,
 				72940C052C85E03100311CE8 /* SwiftUIPracticeProjectApp.swift in Sources */,
+				72940C2B2C85FDB600311CE8 /* MainView.swift in Sources */,
+				72940C212C85EB9900311CE8 /* RadiusBlueBackground.swift in Sources */,
+				72940C192C85E8C000311CE8 /* CustomImageView.swift in Sources */,
+				72940C252C85EFFA00311CE8 /* UnderlineTextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
