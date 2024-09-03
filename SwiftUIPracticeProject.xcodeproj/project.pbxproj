@@ -20,6 +20,8 @@
 		72940C252C85EFFA00311CE8 /* UnderlineTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C242C85EFFA00311CE8 /* UnderlineTextFieldView.swift */; };
 		72940C292C85F6B600311CE8 /* ProfileImageSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C282C85F6B600311CE8 /* ProfileImageSettingView.swift */; };
 		72940C2B2C85FDB600311CE8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C2A2C85FDB500311CE8 /* MainView.swift */; };
+		72940C382C86F3D900311CE8 /* CoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C372C86F3D900311CE8 /* CoinView.swift */; };
+		72940C3B2C86F97C00311CE8 /* UpbitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C3A2C86F97C00311CE8 /* UpbitAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		72940C242C85EFFA00311CE8 /* UnderlineTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineTextFieldView.swift; sourceTree = "<group>"; };
 		72940C282C85F6B600311CE8 /* ProfileImageSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageSettingView.swift; sourceTree = "<group>"; };
 		72940C2A2C85FDB500311CE8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		72940C372C86F3D900311CE8 /* CoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinView.swift; sourceTree = "<group>"; };
+		72940C3A2C86F97C00311CE8 /* UpbitAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpbitAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,17 +73,15 @@
 		72940C032C85E03100311CE8 /* SwiftUIPracticeProject */ = {
 			isa = PBXGroup;
 			children = (
+				72940C392C86F76100311CE8 /* Network */,
+				72940C362C86F2FC00311CE8 /* View */,
 				72940C1F2C85EB8100311CE8 /* CustomModifier */,
 				72940C1A2C85E9AF00311CE8 /* enum */,
 				72940C172C85E8AF00311CE8 /* CustomView */,
 				72940C142C85E78B00311CE8 /* Wrapper */,
 				72940C042C85E03100311CE8 /* SwiftUIPracticeProjectApp.swift */,
-				72940C062C85E03100311CE8 /* ContentView.swift */,
-				72940C122C85E41B00311CE8 /* ProfileSettingView.swift */,
-				72940C282C85F6B600311CE8 /* ProfileImageSettingView.swift */,
 				72940C082C85E03300311CE8 /* Assets.xcassets */,
 				72940C0A2C85E03300311CE8 /* Preview Content */,
-				72940C2A2C85FDB500311CE8 /* MainView.swift */,
 			);
 			path = SwiftUIPracticeProject;
 			sourceTree = "<group>";
@@ -140,6 +142,26 @@
 				72940C242C85EFFA00311CE8 /* UnderlineTextFieldView.swift */,
 			);
 			path = CustomModifier;
+			sourceTree = "<group>";
+		};
+		72940C362C86F2FC00311CE8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72940C062C85E03100311CE8 /* ContentView.swift */,
+				72940C122C85E41B00311CE8 /* ProfileSettingView.swift */,
+				72940C282C85F6B600311CE8 /* ProfileImageSettingView.swift */,
+				72940C2A2C85FDB500311CE8 /* MainView.swift */,
+				72940C372C86F3D900311CE8 /* CoinView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		72940C392C86F76100311CE8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				72940C3A2C86F97C00311CE8 /* UpbitAPI.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72940C3B2C86F97C00311CE8 /* UpbitAPI.swift in Sources */,
 				72940C232C85EC0200311CE8 /* NavigationLinkCustomButton.swift in Sources */,
 				72940C1C2C85E9BC00311CE8 /* ImageName.swift in Sources */,
 				72940C132C85E41B00311CE8 /* ProfileSettingView.swift in Sources */,
@@ -221,6 +244,7 @@
 				72940C052C85E03100311CE8 /* SwiftUIPracticeProjectApp.swift in Sources */,
 				72940C2B2C85FDB600311CE8 /* MainView.swift in Sources */,
 				72940C212C85EB9900311CE8 /* RadiusBlueBackground.swift in Sources */,
+				72940C382C86F3D900311CE8 /* CoinView.swift in Sources */,
 				72940C192C85E8C000311CE8 /* CustomImageView.swift in Sources */,
 				72940C252C85EFFA00311CE8 /* UnderlineTextFieldView.swift in Sources */,
 			);
