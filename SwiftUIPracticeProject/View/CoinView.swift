@@ -12,15 +12,12 @@ struct CoinView: View {
     @State private var market: Markets = []
     @State private var searchText = ""
     
-    @State private var isButtonClicked = false
-    
     let color = Color(red: .random(in: 0...1),
                       green: .random(in: 0...1),
                       blue: .random(in: 0...1))
     
-    private var filterMarket: Markets {
-        guard !searchText.isEmpty else { return market }
-        return market.filter { market in
+    private var filterMarket: [Binding<Market>] {
+        return $market.filter { $market in
             market.englishName.lowercased().contains(searchText.lowercased())
         }
     }
@@ -44,26 +41,26 @@ struct CoinView: View {
     
     private func listView() -> some View {
         LazyVStack{
-            ForEach(filterMarket, id: \.self){ item in
-                rowView(item, isSeleted: isButtonClicked)
+            ForEach(filterMarket, id: \.id){ $item in
+                rowView($item)
             }
         }
     }
     
-    private func rowView(_ item: Market, isSeleted: Bool) -> some View {
+    private func rowView(_ item: Binding<Market>) -> some View {
         HStack{
             RandColorHeartView()
             VStack(alignment: .leading) {
-                Text(item.englishName)
+                Text(item.englishName.wrappedValue)
                     .fontWeight(.bold)
-                Text(item.market)
+                Text(item.market.wrappedValue)
                     .font(.caption)
             }
             Spacer()
             Button(action: {
-                isButtonClicked.toggle()
+                item.isLike.wrappedValue.toggle()
             }, label: {
-                Image(systemName: isButtonClicked ? "star" : "star.fill")
+                Image(systemName: item.isLike.wrappedValue ? "star.fill" : "star")
                     .asForeground(.black)
                     .font(.system(size: 20))
             })
