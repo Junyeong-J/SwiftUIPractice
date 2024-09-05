@@ -22,6 +22,11 @@
 		72940C2B2C85FDB600311CE8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C2A2C85FDB500311CE8 /* MainView.swift */; };
 		72940C382C86F3D900311CE8 /* CoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C372C86F3D900311CE8 /* CoinView.swift */; };
 		72940C3B2C86F97C00311CE8 /* UpbitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C3A2C86F97C00311CE8 /* UpbitAPI.swift */; };
+		72940C442C898E8C00311CE8 /* RandomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C432C898E8C00311CE8 /* RandomImageView.swift */; };
+		72940C462C898FF400311CE8 /* PosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C452C898FF400311CE8 /* PosterView.swift */; };
+		72940C482C89914500311CE8 /* HorizontalSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C472C89914500311CE8 /* HorizontalSectionView.swift */; };
+		72940C4C2C89B1F900311CE8 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C4B2C89B1F900311CE8 /* ImageDetailView.swift */; };
+		72940C4F2C89B32100311CE8 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72940C4E2C89B32100311CE8 /* CategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +46,11 @@
 		72940C2A2C85FDB500311CE8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		72940C372C86F3D900311CE8 /* CoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinView.swift; sourceTree = "<group>"; };
 		72940C3A2C86F97C00311CE8 /* UpbitAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpbitAPI.swift; sourceTree = "<group>"; };
+		72940C432C898E8C00311CE8 /* RandomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageView.swift; sourceTree = "<group>"; };
+		72940C452C898FF400311CE8 /* PosterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterView.swift; sourceTree = "<group>"; };
+		72940C472C89914500311CE8 /* HorizontalSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSectionView.swift; sourceTree = "<group>"; };
+		72940C4B2C89B1F900311CE8 /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
+		72940C4E2C89B32100311CE8 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +157,8 @@
 		72940C362C86F2FC00311CE8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				72940C4D2C89B2E200311CE8 /* CategoryView */,
+				72940C492C8998EF00311CE8 /* RandomImageView */,
 				72940C062C85E03100311CE8 /* ContentView.swift */,
 				72940C122C85E41B00311CE8 /* ProfileSettingView.swift */,
 				72940C282C85F6B600311CE8 /* ProfileImageSettingView.swift */,
@@ -162,6 +174,25 @@
 				72940C3A2C86F97C00311CE8 /* UpbitAPI.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		72940C492C8998EF00311CE8 /* RandomImageView */ = {
+			isa = PBXGroup;
+			children = (
+				72940C432C898E8C00311CE8 /* RandomImageView.swift */,
+				72940C472C89914500311CE8 /* HorizontalSectionView.swift */,
+				72940C452C898FF400311CE8 /* PosterView.swift */,
+				72940C4B2C89B1F900311CE8 /* ImageDetailView.swift */,
+			);
+			path = RandomImageView;
+			sourceTree = "<group>";
+		};
+		72940C4D2C89B2E200311CE8 /* CategoryView */ = {
+			isa = PBXGroup;
+			children = (
+				72940C4E2C89B32100311CE8 /* CategoryView.swift */,
+			);
+			path = CategoryView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,13 +265,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72940C482C89914500311CE8 /* HorizontalSectionView.swift in Sources */,
 				72940C3B2C86F97C00311CE8 /* UpbitAPI.swift in Sources */,
 				72940C232C85EC0200311CE8 /* NavigationLinkCustomButton.swift in Sources */,
 				72940C1C2C85E9BC00311CE8 /* ImageName.swift in Sources */,
+				72940C4C2C89B1F900311CE8 /* ImageDetailView.swift in Sources */,
 				72940C132C85E41B00311CE8 /* ProfileSettingView.swift in Sources */,
 				72940C072C85E03100311CE8 /* ContentView.swift in Sources */,
+				72940C462C898FF400311CE8 /* PosterView.swift in Sources */,
+				72940C4F2C89B32100311CE8 /* CategoryView.swift in Sources */,
 				72940C162C85E7A000311CE8 /* ForegroundWrapper.swift in Sources */,
 				72940C292C85F6B600311CE8 /* ProfileImageSettingView.swift in Sources */,
+				72940C442C898E8C00311CE8 /* RandomImageView.swift in Sources */,
 				72940C052C85E03100311CE8 /* SwiftUIPracticeProjectApp.swift in Sources */,
 				72940C2B2C85FDB600311CE8 /* MainView.swift in Sources */,
 				72940C212C85EB9900311CE8 /* RadiusBlueBackground.swift in Sources */,

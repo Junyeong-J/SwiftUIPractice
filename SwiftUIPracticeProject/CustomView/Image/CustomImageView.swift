@@ -17,5 +17,6 @@ struct CustomImageView: View {
             .aspectRatio(contentMode: .fill)
             .frame(width: width, height: height)
             .padding()
+            
     }
 }
