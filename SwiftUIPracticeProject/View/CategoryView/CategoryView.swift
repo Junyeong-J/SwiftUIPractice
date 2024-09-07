@@ -31,7 +31,6 @@ struct CategoryView: View {
                     }
                 }
             }
-            .listStyle(DefaultListStyle())
                 .navigationTitle("영화 검색")
                 .toolbar {
                     Button("추가") {
@@ -41,7 +40,7 @@ struct CategoryView: View {
                 }
                 .searchable(text: $searchText,
                             placement: .navigationBarDrawer(displayMode: .always),
-                            prompt: "search")
+                            prompt: "영화를 검색해 보세요")
         }
     }
 }
